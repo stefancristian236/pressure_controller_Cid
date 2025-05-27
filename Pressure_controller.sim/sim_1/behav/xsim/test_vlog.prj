@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../colocviu422fa.srcs/sources_1/new/counter_interface.sv" \
+"../../../../colocviu422fa.srcs/sources_1/new/pressure_controller.sv" \
+"../../../../colocviu422fa.srcs/sources_1/new/re_det.sv" \
+"../../../../colocviu422fa.srcs/sources_1/new/syncro.sv" \
+"../../../../colocviu422fa.srcs/sources_1/new/top.sv" \
+"../../../../colocviu422fa.srcs/sim_1/new/test.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
