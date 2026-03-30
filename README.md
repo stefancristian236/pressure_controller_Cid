@@ -24,8 +24,7 @@ The central controller operates using 7 distinct states:
 5. **TESTMODE (s4):** Forced testing or diagnostic mode.
 6. **PRESSURE_LIN (s5):** Checks if the read pressure matches a saved state; sends the system into FAULT if the data is corrupted.
 7. **FAULT (s6):** Error state; requires an asynchronous reset to restart.
-
-8. 
+ 
 ![schema2](https://github.com/user-attachments/assets/3fe434a1-db1a-433e-a4cf-43cc499eadf2)
 
 
